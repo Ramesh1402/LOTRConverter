@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48C4CF732C14B2B900D56080 /* ExchangeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4CF722C14B2B900D56080 /* ExchangeInfoView.swift */; };
 		48DD03842C01F07E00424159 /* LOTRConverter91App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD03832C01F07E00424159 /* LOTRConverter91App.swift */; };
 		48DD03862C01F07E00424159 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD03852C01F07E00424159 /* ContentView.swift */; };
 		48DD03882C01F07F00424159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DD03872C01F07F00424159 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48C4CF722C14B2B900D56080 /* ExchangeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfoView.swift; sourceTree = "<group>"; };
 		48DD03802C01F07E00424159 /* LOTRConverter91.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConverter91.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DD03832C01F07E00424159 /* LOTRConverter91App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConverter91App.swift; sourceTree = "<group>"; };
 		48DD03852C01F07E00424159 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				48DD03832C01F07E00424159 /* LOTRConverter91App.swift */,
 				48DD03852C01F07E00424159 /* ContentView.swift */,
+				48C4CF722C14B2B900D56080 /* ExchangeInfoView.swift */,
 				48DD03872C01F07F00424159 /* Assets.xcassets */,
 				48DD03892C01F07F00424159 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				48DD03862C01F07E00424159 /* ContentView.swift in Sources */,
 				48DD03842C01F07E00424159 /* LOTRConverter91App.swift in Sources */,
+				48C4CF732C14B2B900D56080 /* ExchangeInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
