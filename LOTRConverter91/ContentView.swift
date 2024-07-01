@@ -108,8 +108,28 @@ struct ContentView: View {
                 }
             }
         }
+        .sheet(isPresented: $showExchangeInfo) {
+            ExchangeInfoView()
+                .onAppear {
+                    setWindowBackgroundColor(.black)
+                }
+                .onDisappear() {
+                    setWindowBackgroundColor(.white)
+                }
+        }
+
+    }
+    
+    private func setWindowBackgroundColor(_ color: UIColor) {
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+            let window = windowScene.windows.first
+        {
+            window.backgroundColor = color
+        }
     }
 }
+
+
 
 #Preview {
     ContentView()
